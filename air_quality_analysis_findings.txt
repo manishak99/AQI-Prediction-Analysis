@@ -1,0 +1,40 @@
+AIR QUALITY ANALYSIS FINDINGS
+============================
+
+Analysis Date: 2024-11-27
+
+1. Model Performance:
+
+LSTM Model:
+MSE: 3925.3296
+R²: 0.7729
+
+CNN-LSTM Model:
+MSE: 4885.1877
+R²: 0.7174
+
+Transformer Model:
+MSE: 5292.9582
+R²: 0.6938
+
+2. Temporal Patterns:
+Peak AQI Month: 11
+Lowest AQI Month: 7
+
+3. Critical Pollutants:
+CO: 0.650
+PM2.5: 0.629
+NO2: 0.523
+PM10: 0.484
+SO2: 0.453
+NOx: 0.438
+NO: 0.431
+O3: 0.189
+NH3: 0.137
+
+4. WHO Guideline Exceedance:
+PM2.5: 48.5%
+PM10: 67.1%
+NO2: 19.7%
+SO2: 15.0%
+O3: 1.1%
